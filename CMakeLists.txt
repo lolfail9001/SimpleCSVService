@@ -26,7 +26,7 @@ add_executable (
   csvapp
   csvloadapp.hpp
   csvloadapp.cpp
-  cpp-httplib/httplib.h
+  httplib.h
   csvapp.cpp
 )
 
@@ -39,7 +39,7 @@ add_executable (
   csvtests.cpp
   csvloadapp.hpp
   csvloadapp.cpp
-  cpp-httplib/httplib.h)
+  httplib.h)
 target_link_libraries (csvtests ${SQLite3_LIBRARIES} gtest_main)
 
 include(GoogleTest)
