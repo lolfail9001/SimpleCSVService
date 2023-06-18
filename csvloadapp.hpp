@@ -10,7 +10,7 @@ extern "C"
 #include <string>
 #include <vector>
 #include <algorithm>
-#include "cpp-httplib/httplib.h"
+#include "httplib.h"
 
 
 // Rule is simple
